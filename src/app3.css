@@ -1,0 +1,15 @@
+
+body > .page > section{
+    border:1px solid gray;
+}
+#app3 .square{
+    border:1px solid black;
+    margin-top:10vw;
+    margin-left:10vw;
+    width:10vw;
+    height:10vw;
+    transition: transform 1s;
+}
+#app3 .square.active{
+    transform: translateX(15vw);
+}
